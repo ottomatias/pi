@@ -22,6 +22,6 @@ production:
     adapter: mysql
     encoding: utf8
     database: pi
-    username: <%= ENV['DB_USERNAME'] %>
-    password: <%= ENV['DB_PASSWORD'] %>
-    host: <%= ENV['DB_HOSTNAME'] %>
+    username: <%= ENV['PI_DB_USERNAME'] %>
+    password: <%= ENV['PI_DB_PASSWORD'] %>
+    host: <%= ENV['PI_DB_HOSTNAME'] %>
