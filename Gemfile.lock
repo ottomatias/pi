@@ -131,7 +131,6 @@ GEM
     oauth2 (0.5.2)
       faraday (~> 0.7)
       multi_json (~> 1.0)
-    pg (0.15.0)
     polyglot (0.3.3)
     pry (0.9.12)
       coderay (~> 1.0.5)
@@ -233,7 +232,6 @@ DEPENDENCIES
   kaminari (~> 0.14)
   kramdown (~> 1.0)
   mysql
-  pg (~> 0.14)
   quiet_assets
   rack-livereload
   rails (~> 3.2)
