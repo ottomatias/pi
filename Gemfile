@@ -29,7 +29,6 @@ platform :jruby do
 end
 
 platform :ruby do
-  gem 'pg', '~> 0.14'
   gem 'unicorn'
 end
 
