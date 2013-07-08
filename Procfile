@@ -1,1 +1,1 @@
-web: rails server -p $PORT -e production
+web: bundle exec rails server -p $PORT -e production
