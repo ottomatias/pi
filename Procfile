@@ -1,1 +1,1 @@
-web: bin/bundle exec rails server -p $PORT -e production
+web: vendor/bundle/bin/bundle exec rackup -p $PORT
