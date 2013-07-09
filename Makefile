@@ -11,7 +11,7 @@ build: $(BUNDLE) public/assets
 
 $(BUNDLE):
 	GEM_HOME=$(GEM_HOME) gem install bundler --bindir bin/
-	GEM_HOME=$(GEM_HOME) bin/bundle install --deployment --binstubs
+	GEM_HOME=$(GEM_HOME) bin/bundle install --deployment --binstubs --without test development
 	touch $(BUNDLE)
 
 public/assets: $(ASSETS)
