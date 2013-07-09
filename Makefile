@@ -9,10 +9,10 @@ ASSETS=$(IMAGE_ASSETS) $(JAVASCRIPT_ASSETS) $(COFFEE_ASSETS) $(SCSS_ASSETS)
 
 build: $(BUNDLE) public/assets
 
-$(BUNDLE): Gemfile.lock
-  GEM_HOME=$(GEM_HOME) gem install bundler --bindir bin/
-  GEM_HOME=$(GEM_HOME) bin/bundle install --deployment --binstubs
-  touch $(BUNDLE)
+$(BUNDLE):
+	GEM_HOME=$(GEM_HOME) gem install bundler --bindir bin/
+	GEM_HOME=$(GEM_HOME) bin/bundle install --deployment --binstubs
+	touch $(BUNDLE)
 
 public/assets: $(ASSETS)
 	bin/bundle exec rake assets:precompile
