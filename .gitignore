@@ -14,6 +14,7 @@
 
 # Ignore the default SQLite database.
 /db/*.sqlite3
+/db/*.mysql
 
 
 # Ignore all logfiles and tempfiles.
@@ -25,6 +26,9 @@
 # Ignore config
 /config/deploy.rb
 /config/database.yml
+
+# Ignore .env file
+.env 
 
 # Stupid configs for livereload
 /app/assets/*/config.rb
