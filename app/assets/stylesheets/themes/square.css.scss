@@ -6,7 +6,7 @@ $line-height: 1.4em;
 
 $header-width: 200px;
 $header-pad: 40px;
-$content-pad: 60px;
+$content-pad: 40px;
 
 $header-name: #333;
 $header-text: #fff;
@@ -217,7 +217,7 @@ header {
   #content {
     margin: $content-pad auto;
     padding: 0 0 0 $content-pad;
-    width: 920px;
+    width: 1080px;
 
     .inner {
       margin-right: $header-width + $content-pad;
