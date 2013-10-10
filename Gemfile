@@ -3,18 +3,18 @@ source 'https://rubygems.org'
 gem 'rails', '~> 3.2'
 
 # Auth/users
-gem 'sorcery', '0.7'
+gem 'sorcery', '~> 0.8'
 gem 'bcrypt-ruby', '~> 3.0.0'
 
 # Frontend Utilities
 gem 'slim', '~> 1.2'
-gem 'turbolinks', '~> 1.0'
+gem 'turbolinks', '~> 1.3.0'
 gem 'jquery-rails', '~> 2'
 gem 'compass-rails'
 
 # Markdown
 gem 'kramdown', '~> 1.0', require: false
-gem 'coderay', '~> 1.0'
+# gem 'coderay', '~> 1.0'
 
 # Pagination
 gem 'kaminari', '~> 0.14'
