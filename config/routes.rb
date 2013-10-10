@@ -1,7 +1,7 @@
 Obtvse::Application.routes.draw do
 
   # Admin
-  match '/admin', to: 'posts#admin', as: 'admin'
+  match '/admin', to: 'posts#admin', as: 'admin', via: 'get'
   get 'logout' => 'sessions#destroy', as: 'logout'
 
   get '/posts(.:format)', to: 'posts#index'
@@ -11,7 +11,7 @@ Obtvse::Application.routes.draw do
   resources :sessions
   resources :posts, path: '/'
 
-  get '/:slug', to: 'posts#show', as: 'post'
+  get '/:slug', to: 'posts#show', as: 'post_'
 
   root to: 'posts#index'
 
