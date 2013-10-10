@@ -1,4 +1,5 @@
-Obtvse 2
+Pi - fork of obtvse2
+
 ================
 
 A clean and simple markdown blogging platform on Rails.
